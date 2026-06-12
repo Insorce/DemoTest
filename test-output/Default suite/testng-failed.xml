@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PBL_SANITY.Page16_Controls">
+      <class name="PBL_SANITY.Project_creation_with_Visio_PDF_Zip_Json_files_In_PBL">
         <methods>
           <include name="tearDown"/>
-          <include name="business_rules"/>
+          <include name="insorce"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- PBL_SANITY.Page16_Controls -->
+      </class> <!-- PBL_SANITY.Project_creation_with_Visio_PDF_Zip_Json_files_In_PBL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

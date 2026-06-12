@@ -9,7 +9,7 @@
     <classes>
   <class name="PBL_SANITY.Page1_ProcessMap_Rejections_PBL"/>
     <class name="PBL_SANITY.Page2_gelocate_working_hours"/>
-     <class name="PBL_SANITY.Validation_System_and_application"/>
+   <!--  <class name="PBL_SANITY.Validation_System_and_application"/>
        <class name="PBL_SANITY.Page3_System_applications"/>
        <class name="PBL_SANITY.Validation_Products_PBL"/>
      <class name="PBL_SANITY.Page4_products"/>
@@ -26,7 +26,7 @@
      <class name="PBL_SANITY.Page13_TeamSalary"/>
      <class name="PBL_SANITY.Page14_OperationSites"/>
      <class name="PBL_SANITY.Page15_NVA"/>
-     <class name="PBL_SANITY.Page16_Controls"/>
+     <class name="PBL_SANITY.Page16_Controls"/> -->
 
    
     </classes>

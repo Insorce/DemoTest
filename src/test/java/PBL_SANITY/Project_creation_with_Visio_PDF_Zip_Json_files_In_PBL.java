@@ -142,7 +142,7 @@ public class Project_creation_with_Visio_PDF_Zip_Json_files_In_PBL extends PblSa
        System.out.print("===");
        //------- Upload the VISIO file -------------//
 
-		driver.navigate().to("https://pbl.3-cubed.com/Process/CreateProject");
+		driver.navigate().to("https://prod.3-cubed.com/Process/CreateProject");
 		//create project
 				//driver.findElement(By.cssSelector("div.float-end.my-1")).click();
 				//enter project name
@@ -264,7 +264,7 @@ public class Project_creation_with_Visio_PDF_Zip_Json_files_In_PBL extends PblSa
 			       
 			     //------- Upload the PDF file -------------//
 
-					driver.navigate().to("https://pbl.3-cubed.com/Process/CreateProject");
+					driver.navigate().to("https://prod.3-cubed.com/Process/CreateProject");
 					//create project
 							//driver.findElement(By.cssSelector("div.float-end.my-1")).click();
 							//enter project name
@@ -378,7 +378,7 @@ public class Project_creation_with_Visio_PDF_Zip_Json_files_In_PBL extends PblSa
 			       
 						       //------- Upload the JSON file -------------//
 
-								driver.navigate().to("https://pbl.3-cubed.com/Process/CreateProject");
+								driver.navigate().to("https://prod.3-cubed.com/Process/CreateProject");
 								//create project
 										//driver.findElement(By.cssSelector("div.float-end.my-1")).click();
 										//enter project name

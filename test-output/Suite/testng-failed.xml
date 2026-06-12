@@ -6,34 +6,34 @@
   </listeners>
   <test thread-count="5" name="testng(failed)">
     <classes>
-      <class name="Tier0.Brokenlink_PeriodicActivities_Page">
+      <class name="PBL_SANITY.Validation_System_and_application">
         <methods>
-          <include name="closeTheUrl"/>
-          <include name="openURL"/>
-          <include name="PageBreaks_PeriodicActivities_Page"/>
+          <include name="validateSystemAndApplicationCrud"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Tier0.Brokenlink_PeriodicActivities_Page -->
-      <class name="Tier1.Page5_periodic_activities">
+      </class> <!-- PBL_SANITY.Validation_System_and_application -->
+      <class name="PBL_SANITY.Page8_gelocate_team_size">
         <methods>
-          <include name="closeTheUrl"/>
-          <include name="openURL"/>
-          <include name="products"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="gelocate_team_size_as_is"/>
         </methods>
-      </class> <!-- Tier1.Page5_periodic_activities -->
-      <class name="Tier1.Page1_processmap_rejections">
+      </class> <!-- PBL_SANITY.Page8_gelocate_team_size -->
+      <class name="PBL_SANITY.Page10_Deadlines">
         <methods>
-          <include name="closeTheUrl"/>
-          <include name="openURL"/>
-          <include name="processmap_rejections"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="deadlines_9"/>
         </methods>
-      </class> <!-- Tier1.Page1_processmap_rejections -->
-      <class name="Tier1.Page6_Volume">
+      </class> <!-- PBL_SANITY.Page10_Deadlines -->
+      <class name="PBL_SANITY.Page16_Controls">
         <methods>
-          <include name="closeTheUrl"/>
-          <include name="volume"/>
-          <include name="openURL"/>
+          <include name="tearDown"/>
+          <include name="business_rules"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- Tier1.Page6_Volume -->
+      </class> <!-- PBL_SANITY.Page16_Controls -->
     </classes>
   </test> <!-- testng(failed) -->
 </suite> <!-- Failed suite [Suite] -->
